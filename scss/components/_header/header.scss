@@ -1,0 +1,25 @@
+header{
+
+  .header-wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar{
+    padding: 15px 0;
+  }
+
+    li{
+
+      a{
+        font-size: 10pt;
+      &:hover{
+        color: white;
+        background-color: #ffbb42;
+        border-radius: 3px;
+
+
+      }
+      }
+    }
+}
